@@ -17,14 +17,20 @@
             <h1>PORTFOLIO.</h1>
             <div id="nav-part2">
                 <ul>
-                    <li>HOME</li>
-                    <li>ABOUT ME</li>
-                    <li>SKILLS</li>
-                    <li>PROJECTS</li>
-                    <li>CONTACT</li>
+                    <li><a href="#page1">HOME</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#skills-section">SKILLS</a></li>
+                    <li><a href="#projects-section">PROJECTS</a></li>
+
+                    <li><a href="#footer">CONTACT</a></li>
                 </ul>
             </div>
-            <button><b>RESUME</b></button>
+           
+           <a href="assets/Bandana_Baghel_cv_4398 (2).pdf" download target="_blank">
+                  <button><b>RESUME</b></button>
+              </a>
+         
+          
         </nav>
 
         <div id="page1">
@@ -55,8 +61,8 @@
 
     </div>
     <div class="about-content">
-      <div><img class="about-photo" src="my photo.jpg" alt="Your Photo"></div>
-        <div><p class="about-text"> Hi, I’m Shelndra, a passionate web developer specializing in building dynamic and responsive websites. 
+      <div><img class="about-photo" src="assets/IMG20240920185102.jpg" alt="Your Photo"></div>
+        <div><p class="about-text"> Hi, I’m Bandana, a passionate web developer specializing in building dynamic and responsive websites. 
           With expertise in HTML, CSS, JavaScript, Python, Node.js, Express.js, and MySQL, I enjoy turning ideas into functional and aesthetically pleasing digital experiences. My journey as a developer has been driven by a curiosity for solving problems and a love for clean, efficient code. 
           I’m always eager to learn and adapt to new technologies, making sure my projects are not just functional but also engaging. Whether it’s front-end design or back-end development, I thrive in creating seamless user experiences.
 
@@ -65,7 +71,7 @@
     </div>
 
 
-    <div class="skills-section">
+    <div id="skills-section">
         <h2>Skills</h2>
       
         <div class="skill">
@@ -141,14 +147,14 @@
       
 
 
-      <section class="projects-section">
+      <section id="projects-section">
         <h2 class="projects-title">My Recent Projects</h2>
     
         <div class="projects-container">
     
             <!-- Project 1: Amazon Clone -->
             <div class="project-card">
-                <div class="project-image" style="background-image:url(download.jpeg);"></div>
+                <div class="project-image" style="background-image:url(assets/download.jpeg);"></div>
                 <div class="project-info">
                     <h3 class="project-title">Amazon Clone</h3>
                     <p class="project-description">A fully functional e-commerce website clone with real-time product listings, user authentication, and a shopping cart system.</p>
@@ -163,7 +169,7 @@
     
             <!-- Project 2: To-Do List -->
             <div class="project-card">
-                <div class="project-image" style="background-image: url('c5781d72c1298dc869b74702b4ee42a0.png');"></div>
+                <div class="project-image" style="background-image: url('assets/c5781d72c1298dc869b74702b4ee42a0.png');"></div>
                 <div class="project-info">
                     <h3 class="project-title">To-Do List App</h3>
                     <p class="project-description">A simple and elegant to-do list app with real-time task management and drag-and-drop functionality.</p>
@@ -177,7 +183,7 @@
     
             <!-- Project 3: Landing Page -->
             <div class="project-card">
-                <div class="project-image" style="background-image: url('IMG-20240908-WA0054.jpg')";></div>
+                <div class="project-image" style="background-image: url(assets/IMG-20240908-WA0054.jpg)";></div>
                 <div class="project-info">
                     <h3 class="project-title">Responsive Landing Page</h3>
                     <p class="project-description">A modern, fully responsive landing page designed for a tech startup with smooth scrolling and animations.</p>
@@ -192,10 +198,16 @@
     
         </div>
     </section>
+   
+    <!-- Container for the embedded video -->
+    <div div id="videoPlayerContainer" class="video-player-container">
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gyFaBZ_BQhc?si=LJYejtUXTo07Dtqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-     <footer>
+     <div id="footer">
       <div class="contact-container">
-        <h4>CONTACT ME</h4>
+        <h4>Let's Connect</h4>
       <form id="contactForm">
       <input type="text" id="name" name="name" placeholder="Your Name" required>
       <input type="email" id="email" name="email" placeholder="Your Email" required>
@@ -207,7 +219,46 @@
     </form>
     <div id="formFeedback" style="display:none; color:red; margin-top:10px;"></div>
     </div>
-     </footer>
+     </div>
+     <footer>
+      <div class="footer-container">
+        <div class="footer-about">
+          <h4>About Me</h4>
+          <p>I'm Bandana, a web developer passionate about building beautiful and efficient websites. Let's connect!</p>
+        </div>
+    
+        <div class="footer-socials">
+          <h4>Follow Me</h4>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/bandana-baghel-008107287/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Vandu773" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/vanda_na.81005/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#page1">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills-section">Skills</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </div>
+    
+        
+          </form>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>&copy; 2024 Bandana Portfolio. All Rights Reserved.</p>
+      </div>
+    </footer>
+    
+
+
+     </div>
     <script src="script.js"></script>
     </body>
 
